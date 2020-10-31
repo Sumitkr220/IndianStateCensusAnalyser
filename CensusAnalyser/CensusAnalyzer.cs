@@ -9,7 +9,7 @@ namespace CensusAnalyserLive.DTO
     {
         public enum Country
         {
-            INDIA,
+            INDIA, US, BRAZIL
         }
 
         Dictionary<string, CensusDTO> dataMap;
